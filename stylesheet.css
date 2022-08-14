@@ -1,0 +1,43 @@
+body {
+  background-color: rgba(1, 1, 1, 0.5);
+}
+
+body > div > div > div > img {
+  height: 12em;
+  width: 12em;
+}
+
+footer {
+  height: 200px;
+  background-color: #000;
+  color: #fff;
+}
+
+div > div > p {
+  color: rgb(255, 255, 255);
+}
+
+fieldset {
+  color: darkred;
+  border: 0;
+}
+
+a {
+  font-weight: 800;
+}
+
+nav > a:link {
+  color: rgb(85, 0, 255);
+}
+
+nav > a:visited {
+  color: rgba(1, 1, 1, 1);
+}
+
+nav > a:hover {
+  color: rgb(198, 63, 63);
+}
+
+nav > a:active {
+  color: rgb(255, 255, 255);
+}

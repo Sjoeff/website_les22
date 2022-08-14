@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap-CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Les 22 - Bootstrap</title>
+  </head>
+  <body>
+    <div class="container-md">
+      <header>
+        <!-- Navbar -->
+        <div>
+          <h3 class="mb-1">Mijn pagina</h3>
+          <nav class="navbar bg-dark">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="overmij.html">Over mij</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+      <!-- Bericht -->
+      <div class="col-12 mt-2">
+        <p>
+          Welkom op mijn website. Deze website verteld iets over mijzelf en de
+          gemeente waar ik in woon.<br /><br />
+          Venlo (Dialect: Venlo) is een stad in het noordelijke deel van de
+          Nederlandse provincie Limburg en de stedelijke kern van de
+          gelijknamige gemeente. De stad telt 68.575 inwoners (per 2021, bron:
+          CBS). Samen met de stadsdelen Blerick en Tegelen vormt Venlo een
+          stedelijk gebied van 86.885 inwoners (per 2017, bron: CBS) in de
+          gemeente met 102.176 inwoners (per 31 januari 2022). Blerick is echter
+          vanouds een afzonderlijk dorp, dat pas tijdens de Tweede Wereldoorlog
+          opgenomen is in de gemeente Venlo. Hetzelfde geldt voor Tegelen, dat
+          in 2001 samen met het dorp Belfeld bij de gemeente is gevoegd. De stad
+          Venlo omvat alleen het gedeelte van de gemeente tussen de A73, de
+          Duitse grens, de A67 en de Maas. Andere kerkdorpen binnen de gemeente
+          Venlo zijn: 't Ven, Hout-Blerick, Boekend, Steyl, Belfeld, Arcen,
+          Velden en Lomm. Venlo is een handels-, transport- en industriestad. De
+          stad is het centrum voor de wijde omgeving alsmede koopcentrum voor
+          het naburige Duitse Ruhrgebied. De gemeente Venlo grenst direct aan de
+          Duitse districten Kleef en Viersen. Venlo is gelegen aan een bocht in
+          de Maas en heeft een historisch centrum, al heeft de Tweede
+          Wereldoorlog erg veel schade aangericht.
+        </p>
+      </div>
+      <!-- Foto grid 3x3 
+        justify-content-center werkt niet op row met row-cols ???
+        d-flex gebruiken ?? -->
+      <div class="row row-cols-3">
+        <div class="col mb-2 mt-2" align="center">
+          <img src="f1.jpg" alt="" />
+        </div>
+        <div class="col mb-2 mt-2" align="center">
+          <img src="f2.jpg" alt="" />
+        </div>
+        <div class="col mb-2 mt-2" align="center">
+          <img src="f3.jpg" alt="" />
+        </div>
+        <div class="col mb-2 mt-2" align="center">
+          <img src="f4.jpg" alt="" />
+        </div>
+        <div class="col mb-2 mt-2" align="center">
+          <img src="f5.jpg" alt="" />
+        </div>
+        <div class="col mb-2 mt-2" align="center">
+          <img src="f6.jpg" alt="" />
+        </div>
+        <div class="col mb-2 mt-2" align="center">
+          <img src="f7.jpg" alt="" />
+        </div>
+        <div class="col mb-2 mt-2" align="center">
+          <img src="f8.jpg" alt="" />
+        </div>
+        <div class="col mb-2 mt-2" align="center">
+          <img src="f9.jpg" alt="" />
+        </div>
+      </div>
+      <!-- Footer-->
+      <footer class="d-flex justify-content-center align-items-center">
+        <h4 class="fs-3">gemaakt door: &copy; Sjoerd</h4>
+      </footer>
+    </div>
+  </body>
+</html>
